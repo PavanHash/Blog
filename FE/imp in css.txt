@@ -1,0 +1,335 @@
+ block element :   " display: block;"
+
+A block element always starts on a new line, and fills up the horizontal space left and right on the web page. You can add margins and padding on all four sides of any block element  top, right, left, and bottom.
+
+
+align-content : 
+
+Syntax:
+
+align-content : normal | baseline | center | stretch | flex-start | flex-end | space-between | space-around | space-evenly
+
+
+
+align-items 
+
+Syntax
+align-items : normal | baseline | center | stretch | flex-start | flex-end
+
+----------------------------------------------------
+
+Syntax
+
+animation :  animation-name    animation-duration    animation-delay                          animation-direction    animation-iteration-count    animation-play-state, animation-fill-mode    animation-timing-function
+
+
+
+"Animation-direction"
+			 property represents the direction of all or some animation cycles in the same or reverse direction. We take an example with 2 animation cycles but with different values of animation-direction.
+
+In this case, all the animation timing functions such as ease-in, ease-out, ease-in-out are also reversed. For example, ease-in in normal direction becomes ease-out in the reverse direction.
+
+
+Animation-direction : 
+
+Syntax
+
+animation-direction : normal | reverse | alternate | alternate-reverse
+
+
+Syntax
+
+animation-duration : +ve value (seconds or milliseconds)
+
+
+Syntax
+
+animation-fill-mode : none | forwards | backwards | both
+
+
+Syntax
+
+animation-iteration-count : +ve value | infinite
+
+
+Syntax
+
+animation-play-state : running | paused
+
+
+Syntax
+
+animation-delay : ease | ease-in | ease-out | ease-in-out
+
+
+Animation:
+
+@keyframes rotate{
+ 0%{
+	transform:rotateZ(0deg);
+ }	
+ 100%{
+	transform:rotateZ(360deg);
+	background-color:yellow;
+ }
+}
+
+
+@keyframes moveTo{
+ 0%{
+	left:0%;
+ }	
+ 100%{
+	left:80%;
+	background-color:yellow;
+ }
+}
+
+
+Syntax
+
+
+background :       background-color   background-image   background-position   /   background-size   background-repeat   background-attachment   background-origin   background-clip
+
+
+Syntax
+
+background-clip : border-box | padding-box | content-box
+
+
+Syntax
+
+background-blend-mode : normal | multiply | screen | overlay | darken | lighten | color-dodge | color-burn | hard-light | soft-light | difference | exclusion | hue | saturation | color | luminosity
+
+
+Syntax
+
+background-origin : border-box | padding-box | content-box
+
+
+Syntax
+
+background-position : [ percentage | length | left | center | right]    [percentage | length | top | center | bottom]
+
+
+Syntax
+
+background-repeat : no-repeat | repeat | repeat-x | repeat-y | space | round
+
+
+Syntax
+
+background-size : contain | cover | auto | length | percentage
+
+
+writing-mode :
+
+Syntax
+
+writing-mode : horizontal-tb | vertical-rl | vertical-lr
+
+
+
+Border :
+
+
+Syntax
+
+border : border-width    border-style    border-color;
+
+
+
+box-shadow :
+
+
+Syntax
+
+box-shadow : none | X-offset    Y-offset    blur-radius    spread-distance    shadow-color    [ inset ]
+
+
+
+bottom :
+
+
+Syntax
+
+bottom : auto | length | percentage
+
+
+
+box-sizing 
+
+
+Syntax
+
+box-sizing : content-box | border-box
+
+
+caption-side
+
+
+Syntax
+
+caption-side : top | bottom
+
+
+
+caret-color
+
+
+Syntax
+
+caret-color : color-name | rgb value | hexadecimal value
+
+
+
+Syntax
+
+
+caption-side : top | bottom
+
+
+clear:
+
+CSS clear property decides whether the elements should be floated on either side of the floated element or not.
+
+
+We'll take an example of three boxes. We will apply float property to all of the three boxes. And then we will check the behavior of clear property for the green box only.
+
+
+Syntax
+
+clear : none | left | right
+
+
+
+column-count:
+
+
+syntax
+
+column-count : auto | integer
+
+
+Syntax
+
+columns : column-width   column-count
+
+
+Syntax
+column-fill : balance | auto
+
+
+Syntax
+column-gap : normal | +ve length
+
+
+Syntax
+column-rule : column-rule-width   column-rule-style   column-rule-color
+
+
+cursor :
+
+
+Syntax
+
+cursor : auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | grab | *-resize | zoom-in | zoom-out
+
+
+direction:
+
+
+Syntax
+
+direction : ltr | rtl
+
+
+display :
+
+
+Syntax
+
+display : block | inline | table | flex | grid | table-row-group | table-header-group | table-footer-group | table-row | table-cell | table-column-group | table-column | table-caption | none | inline-block | inline-table | inline-flex | inline-grid
+
+
+
+empty-cells:
+
+
+Syntax:
+
+empty-cells : separate | collapse
+
+ex:
+
+empty-cells: show;
+
+empty-cells: hide;
+
+
+Syntax
+
+fill : currentColor | color-name | rgb value | hexadecimal value
+
+fill: skyblue;
+
+Syntax
+
+opacity : value between 0 and 1
+
+fill-opacity: 1;
+
+
+filter
+
+Syntax
+filter : none | blur() | brightness() | contrast() | drop-shadow() | grayscale() | hue-rotate() | invert() | opacity() | sepia()
+
+
+Syntax
+float : none | left | right
+
+
+
+flex
+
+Syntax
+flex : none | [flex-grow | flex-shrink ] flex-basis
+
+
+
+Syntax
+gap : row-gap    column-gap
+
+
+
+
+note: justify content vs  align-items vs align-content :
+
+
+justify-content and align-items are similar in their behviour, the difference being that justify-content works on the the main axis while align-items works on the cross axis. align-content works only on multi-line containers and has no effect on single line containers.
+
+VISIT THIS FOR NOTE EXAMPLE:
+
+https://www.web4college.com/css-play/demo-place-content.php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

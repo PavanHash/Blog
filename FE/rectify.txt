@@ -1,0 +1,50 @@
+.pp1{
+    text-align:center ;
+    margin: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pp1 h1{
+    font-size: 43px; 
+}
+
+
+3hourd i wasted for this
+
+  
+
+
+
+.sr1{
+
+    flex-basis:90%;
+    border-radius: 20%;
+    position: relative;
+    overflow: hidden;
+    padding: -80%;
+    width: 40%;
+    height: 300vh;
+    padding: 90px 360px ;
+   
+}
+.sr1 img{
+    width: 100%; 
+}
+
+
+
+
+
+
+
+     <div class="F">
+                               
+                            </div> 
+                            <div class="F1">
+                                <h1> DAD</h1>
+                                <P>...THE LEGEND OF ALL... <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores sapiente natus possimus<br> ipsum voluptatum cum repellat, minus tempore dolores reprehenderit exercitationem <br>ea vel voluptatibus quae placeat mollitia sint iusto eos!</P>
+                            </div> 
+                            
+                        </div>
+    
+                        
+     
